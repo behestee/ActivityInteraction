@@ -23,15 +23,8 @@
         android:layout_marginTop="27dp"
         android:ems="10" >
 
+        <requestFocus />
     </EditText>
-
-    <Button
-        android:id="@+id/go_to_sec_scrn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/inputEmail"
-        android:layout_centerVertical="true"
-        android:text="Button" />
 
     <EditText
         android:id="@+id/inputEmail"
@@ -42,7 +35,14 @@
         android:layout_marginTop="20dp"
         android:ems="10" >
 
-        <requestFocus />
     </EditText>
+    
+    <Button
+        android:id="@+id/go_to_sec_scrn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/inputEmail"
+        android:layout_centerVertical="true"
+        android:text="Button" />
 
 </RelativeLayout>
